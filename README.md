@@ -19,11 +19,10 @@ A Simple Classic 2D JRPG Game made in Unity 6.
 
 ## Credits
 
-- <https://seliel-the-shaper.itch.io/rpg-starter-pack>
-- <https://gentlecatstudio.itch.io/rpg-items>
 - <https://github.com/snozbot/fungus/wiki/getting_started>
 - <https://github.com/i-Jiro/Unity3D-Turn_Based_RPG>
 - <https://pixabay.com/sound-effects/musical-epic-background-music-484342/>
 - <https://pixabay.com/sound-effects/musical-gentle-peaceful-gentle-music-26-second-499509/>
 - <https://pixabay.com/sound-effects/musical-clouds-29191/>
 - <https://pixelfrog-assets.itch.io/tiny-swords>
+- <https://www.youtube.com/playlist?list=PLSR2vNOypvs5yLsbqZc0e6RdqNnP1eGIc>
