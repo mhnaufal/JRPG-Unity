@@ -47,5 +47,8 @@ TagManager:
   - name: PlayerWarrior
     uniqueID: 2987864599
     locked: 0
+  - name: Decoration
+    uniqueID: 1993156219
+    locked: 0
   m_RenderingLayers:
   - Default
