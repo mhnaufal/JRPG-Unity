@@ -11,11 +11,27 @@ A Simple Classic 2D JRPG Game made in Unity 6.
 
 ## TODO
 
-- Simple player movement
+**6 DAYS TO GO ❗**
+
+- Simple player movement ✅
 - Main menu scene
 - Dialog pop up using Fungus
-- Turn based battle system
+- Turn based battle system                | 27
 - Import 2D game Assets ✅
+- 2D Objects
+  - Player ✅
+  - Enemy                                 | 26
+  - NPC                                   | 26
+  - Background ✅
+- Gameplay
+  - Movement ✅
+  - Object interaction                    | 28
+  - NPC Dialog                            | 26
+  - Cut scene before/after Battle/Dialog
+  - Turn-based battle JRPG                | 27
+- Unity Feature
+  - Scriptable Object                     | 29
+  - Prefab                                | 29
 
 ## Credits
 

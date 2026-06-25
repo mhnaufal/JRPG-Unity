@@ -44,11 +44,14 @@ TagManager:
   - name: GreenGround
     uniqueID: 3255030505
     locked: 0
+  - name: Decoration
+    uniqueID: 1993156219
+    locked: 0
   - name: PlayerWarrior
     uniqueID: 2987864599
     locked: 0
-  - name: Decoration
-    uniqueID: 1993156219
+  - name: Elevation
+    uniqueID: 1753452921
     locked: 0
   m_RenderingLayers:
   - Default
