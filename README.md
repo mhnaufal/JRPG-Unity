@@ -11,7 +11,7 @@ A Simple Classic 2D JRPG Game made in Unity 6.
 
 ## TODO
 
-**6 DAYS TO GO ❗**
+**6 DAYS TO GO ❗| 1 JULY**
 
 - Simple player movement ✅
 - Main menu scene
@@ -26,6 +26,7 @@ A Simple Classic 2D JRPG Game made in Unity 6.
 - Gameplay
   - Movement ✅
   - Object interaction                    | 28
+  - HUD Collectible Item                  | 26  ✅
   - NPC Dialog                            | 26
   - Cut scene before/after Battle/Dialog
   - Turn-based battle JRPG                | 27
@@ -42,3 +43,4 @@ A Simple Classic 2D JRPG Game made in Unity 6.
 - <https://pixabay.com/sound-effects/musical-clouds-29191/>
 - <https://pixelfrog-assets.itch.io/tiny-swords>
 - <https://www.youtube.com/playlist?list=PLSR2vNOypvs5yLsbqZc0e6RdqNnP1eGIc>
+- <https://pigeonivy.itch.io/tiny-speech-indicators>
