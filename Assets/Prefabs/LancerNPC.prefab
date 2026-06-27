@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6832982861831373845}
   - component: {fileID: 547921563021831258}
   - component: {fileID: 8335245850671932860}
+  - component: {fileID: 4846837303771038922}
   m_Layer: 0
   m_Name: LancerNPC
   m_TagString: NPC
@@ -176,3 +177,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4846837303771038922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9220870076737150400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb9c0abcee15bb241b5777b264fff0f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrolPoints: []
+  speed: 3
