@@ -11,28 +11,28 @@ A Simple Classic 2D JRPG Game made in Unity 6.
 
 ## TODO
 
-**6 DAYS TO GO ❗| 1 JULY**
+**5 DAYS TO GO ❗| 1 JULY**
 
-- Simple player movement ✅
-- Main menu scene
-- Dialog pop up using Fungus
+- Simple player movement                    ✅
+- Main menu scene                         | 27
+- Dialog pop up using Fungus              | 27
 - Turn based battle system                | 27
-- Import 2D game Assets ✅
+- Import 2D game Assets                     ✅
 - 2D Objects
-  - Player ✅
-  - Enemy                                 | 26
+  - Player                                  ✅
+  - Enemy                                 | 28
   - NPC                                   | 26
-  - Background ✅
+  - Background                              ✅
 - Gameplay
-  - Movement ✅
-  - Object interaction                    | 28
+  - Movement                                ✅
+  - Object interaction                    | 26  ✅
   - HUD Collectible Item                  | 26  ✅
   - NPC Dialog                            | 26
-  - Cut scene before/after Battle/Dialog
-  - Turn-based battle JRPG                | 27
+  - Cut scene before/after Battle/Dialog  | 29
+  - Turn-based battle JRPG                | 28
 - Unity Feature
-  - Scriptable Object                     | 29
-  - Prefab                                | 29
+  - Scriptable Object                     | 29  ✅
+  - Prefab                                | 29  ✅
 
 ## Credits
 
@@ -43,4 +43,3 @@ A Simple Classic 2D JRPG Game made in Unity 6.
 - <https://pixabay.com/sound-effects/musical-clouds-29191/>
 - <https://pixelfrog-assets.itch.io/tiny-swords>
 - <https://www.youtube.com/playlist?list=PLSR2vNOypvs5yLsbqZc0e6RdqNnP1eGIc>
-- <https://pigeonivy.itch.io/tiny-speech-indicators>

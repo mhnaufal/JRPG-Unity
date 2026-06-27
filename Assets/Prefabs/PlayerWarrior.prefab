@@ -172,7 +172,8 @@ MonoBehaviour:
   facingDirection: 1
   rb: {fileID: 1095282189164733196}
   animator: {fileID: 3803596680984683281}
-  data: {fileID: 11400000, guid: ba56b804a6744f34bb8274528800649f, type: 2}
+  characterStats: {fileID: 11400000, guid: ba56b804a6744f34bb8274528800649f, type: 2}
+  characterInventory: {fileID: 11400000, guid: afb4654cd81176845ba2757f640a38dc, type: 2}
   collectedGold: {fileID: 0}
 --- !u!95 &3803596680984683281
 Animator:
@@ -203,7 +204,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6847999909124300073}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}

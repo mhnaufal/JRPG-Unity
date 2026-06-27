@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 989eefabba272864693742e0c04d03ea, type: 3}
-  m_Name: PlayerData
+  m_Script: {fileID: 11500000, guid: f4ee8553ca011d64ca89bda9820007ce, type: 3}
+  m_Name: PlayerInventory
   m_EditorClassIdentifier: 
   collectedGold: 0
-  maxHealth: 10
-  attackDamage: 1
-  turnPriority: 1

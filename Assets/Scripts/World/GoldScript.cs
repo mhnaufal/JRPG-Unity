@@ -1,31 +1,25 @@
 using UnityEngine;
 
-public class GoldScript : MonoBehaviour
+public class GoldScript : MonoBehaviour, IInteractable
 {
-    private GameObject player;
     [SerializeField] private GameObject interactionIcon;
+    [SerializeField] private int goldAmount = 1;
 
-    void Start()
+    void Awake()
     {
-        if (interactionIcon != null)
-        {
-            interactionIcon.SetActive(false);
-        }
+        interactionIcon.SetActive(false);
     }
-
-    void OnTriggerEnter2D(Collider2D collision)
+    public void OnEnterRange()
     {
-        if (collision.CompareTag("Player"))
-        {
-            interactionIcon.SetActive(true);
-        }
+        interactionIcon.SetActive(true);
     }
-
-    void OnTriggerExit2D(Collider2D collision)
+    public void OnExitRange()
     {
-        if (collision.CompareTag("Player"))
-        {
-            interactionIcon.SetActive(false);
-        }
+        interactionIcon.SetActive(false);
+    }
+    public void Interact(PlayerController player)
+    {
+        player.AddGold(goldAmount);
+        Destroy(gameObject);
     }
 }
