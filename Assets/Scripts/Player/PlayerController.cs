@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public bool inputEnabled = true;
     public float moveSpeed = 5.0f;
     public int facingDirection = 1;
     private float horizontalMove, verticalMove;
@@ -19,8 +20,11 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        horizontalMove = Input.GetAxis("Horizontal");
-        verticalMove = Input.GetAxis("Vertical");
+        if (inputEnabled)
+        {
+            horizontalMove = Input.GetAxis("Horizontal");
+            verticalMove = Input.GetAxis("Vertical");
+        }
 
         animator.SetFloat("horizontal", Mathf.Abs(horizontalMove));
         animator.SetFloat("vertical", Mathf.Abs(verticalMove));
@@ -35,9 +39,12 @@ public class PlayerController : MonoBehaviour
         }
         transform.localScale = new Vector3(facingDirection, transform.localScale.y, transform.localScale.z);
 
-        if (interactableInRange != null && Input.GetKeyDown(KeyCode.Space))
+        if (inputEnabled)
         {
-            interactableInRange.Interact(this);
+            if (interactableInRange != null && Input.GetKeyDown(KeyCode.Space))
+            {
+                interactableInRange.Interact(this);
+            }
         }
     }
 
@@ -67,5 +74,21 @@ public class PlayerController : MonoBehaviour
     public void AddGold(int gold)
     {
         characterInventory.collectedGold += gold;
+    }
+
+    public void SetInputEnabled(bool value)
+    {
+        inputEnabled = value;
+        if (!value)
+        {
+            horizontalMove = 0f;
+            verticalMove = 0f;
+        }
+    }
+
+    public void SetMove(float h, float v)
+    {
+        horizontalMove = h;
+        verticalMove = v;
     }
 }
