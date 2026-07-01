@@ -6998,10 +6998,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 929955578}
-  selectedCommands:
-  - {fileID: 929955595}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: Player vs Shaman Initial Dialogue
   stepPause: 0
@@ -7394,7 +7392,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &929955595
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8137,7 +8135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 971837000}
-  walkDistance: 7
+  walkDistance: 6
   flowchart: {fileID: 929955576}
   cutsceneBlock: EngagingWithShaman
   letterbox: {fileID: 626472837}

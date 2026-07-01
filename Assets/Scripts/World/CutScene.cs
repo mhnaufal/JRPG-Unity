@@ -2,6 +2,7 @@ using UnityEngine;
 using Fungus;
 using Unity.Cinemachine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class CutScene : MonoBehaviour
 {
@@ -57,6 +58,8 @@ public class CutScene : MonoBehaviour
 
         player.SetInputEnabled(true);
         StartCoroutine(ShakeCamera());
+
+        SceneManager.LoadSceneAsync("BattleScene");
     }
 
     private IEnumerator ShakeCamera()

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 989eefabba272864693742e0c04d03ea, type: 3}
-  m_Name: PlayerStats
+  m_Name: ShamanStats
   m_EditorClassIdentifier: 
-  charName: Player
-  maxHealth: 10
-  maxAttackDamage: 5
-  minAttackDamage: 1
-  turnPriority: 1
+  charName: Shaman
+  maxHealth: 20
+  maxAttackDamage: 4
+  minAttackDamage: 2
+  turnPriority: 3

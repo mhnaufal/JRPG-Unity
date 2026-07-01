@@ -45,6 +45,7 @@ A Simple Classic 2D JRPG Game made in Unity 6.
 - <https://www.youtube.com/playlist?list=PLSR2vNOypvs5yLsbqZc0e6RdqNnP1eGIc>
 - <https://www.youtube.com/watch?v=DX7HyN7oJjE>
 - <https://5yvalia.itch.io/rpg-type-retro-16x16-animated-speech-icons>
+- <https://www.youtube.com/watch?v=_1pz_ohupPs>
 
 ## Dialogues
 
@@ -88,7 +89,7 @@ A Simple Classic 2D JRPG Game made in Unity 6.
   I. But unlike them, I would never kill my own child.
 
 -- LOSE --
-  F.  I turned every child here into a crow — so they could fly free, far from the parents who broke them. Every soul in this village did the unspeakable. They tortured their children. Sold them to merchants as slaves. Things too vile to name.
+  F.  I turned every child here into a crow — so they could fly free, far from the parents who broke them. Every soul in this village did the unspeakable. They tortured their children, sold them as sex slaves. Things too bad to tell.
   G. If you truly want to help them, then leave us be. The children are happy now — happier than they ever were as human.
 6. WHAT? Their parent did that...?
 ```

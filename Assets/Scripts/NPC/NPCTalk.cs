@@ -28,7 +28,6 @@ public class NPCTalk : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Static;
         animator.Play("LancerRedIdle");
 
-        // interactionAnimator.enabled = true;
         interactionAnimator.Play("InteractionIconOpen");
     }
 
@@ -36,6 +35,5 @@ public class NPCTalk : MonoBehaviour
     {
         rb.bodyType = RigidbodyType2D.Dynamic;
         interactionAnimator.Play("InteractionIconClose");
-        // interactionAnimator.enabled = false;
     }
 }
