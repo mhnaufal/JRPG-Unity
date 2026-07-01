@@ -14,16 +14,6 @@ public class NPCTalk : MonoBehaviour
 
     private void OnEnable()
     {
-        if (rb == null)
-        {
-            rb = GetComponent<Rigidbody2D>();
-        }
-
-        if (animator == null)
-        {
-            animator = GetComponentInChildren<Animator>();
-        }
-
         rb.linearVelocity = Vector2.zero;
         rb.bodyType = RigidbodyType2D.Static;
         animator.Play("LancerRedIdle");

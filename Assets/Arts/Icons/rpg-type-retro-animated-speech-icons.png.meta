@@ -1,0 +1,1885 @@
+fileFormatVersion: 2
+guid: 85fa34a0eb31efd4b9e4b58f4639c9b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -803706419198771368
+    second: rpg-type-retro-animated-speech-icons_0
+  - first:
+      213: 1263465205336022794
+    second: rpg-type-retro-animated-speech-icons_1
+  - first:
+      213: 8842783789570883475
+    second: rpg-type-retro-animated-speech-icons_2
+  - first:
+      213: -9023369593025521023
+    second: rpg-type-retro-animated-speech-icons_3
+  - first:
+      213: -6565317642625709819
+    second: rpg-type-retro-animated-speech-icons_4
+  - first:
+      213: -7177559245632586757
+    second: rpg-type-retro-animated-speech-icons_5
+  - first:
+      213: -3340785300171211191
+    second: rpg-type-retro-animated-speech-icons_6
+  - first:
+      213: 5850007751882981921
+    second: rpg-type-retro-animated-speech-icons_7
+  - first:
+      213: -6248292567759098704
+    second: rpg-type-retro-animated-speech-icons_8
+  - first:
+      213: 6096724234184715007
+    second: rpg-type-retro-animated-speech-icons_9
+  - first:
+      213: -6993312183078915769
+    second: rpg-type-retro-animated-speech-icons_10
+  - first:
+      213: -8158549209486459642
+    second: rpg-type-retro-animated-speech-icons_11
+  - first:
+      213: -4684885415115702697
+    second: rpg-type-retro-animated-speech-icons_12
+  - first:
+      213: -1837357619141066533
+    second: rpg-type-retro-animated-speech-icons_13
+  - first:
+      213: -6914556970186544428
+    second: rpg-type-retro-animated-speech-icons_14
+  - first:
+      213: -4213417947016395819
+    second: rpg-type-retro-animated-speech-icons_15
+  - first:
+      213: 2228441051457361824
+    second: rpg-type-retro-animated-speech-icons_16
+  - first:
+      213: -8814432865355398319
+    second: rpg-type-retro-animated-speech-icons_17
+  - first:
+      213: 1127864783114420641
+    second: rpg-type-retro-animated-speech-icons_18
+  - first:
+      213: -3941102381971638593
+    second: rpg-type-retro-animated-speech-icons_19
+  - first:
+      213: -3418214556038588015
+    second: rpg-type-retro-animated-speech-icons_20
+  - first:
+      213: 7338799986054362111
+    second: rpg-type-retro-animated-speech-icons_21
+  - first:
+      213: 5493101603467133596
+    second: rpg-type-retro-animated-speech-icons_22
+  - first:
+      213: 2447666741114641338
+    second: rpg-type-retro-animated-speech-icons_23
+  - first:
+      213: 1545696048336741617
+    second: rpg-type-retro-animated-speech-icons_24
+  - first:
+      213: 6548553693127262069
+    second: rpg-type-retro-animated-speech-icons_25
+  - first:
+      213: 4107966007222917962
+    second: rpg-type-retro-animated-speech-icons_26
+  - first:
+      213: -7837942159550931535
+    second: rpg-type-retro-animated-speech-icons_27
+  - first:
+      213: -5237891240039067607
+    second: rpg-type-retro-animated-speech-icons_28
+  - first:
+      213: -5274962960206417375
+    second: rpg-type-retro-animated-speech-icons_29
+  - first:
+      213: -9138255601458054464
+    second: rpg-type-retro-animated-speech-icons_30
+  - first:
+      213: 3027107950457811439
+    second: rpg-type-retro-animated-speech-icons_31
+  - first:
+      213: 4058631858510148962
+    second: rpg-type-retro-animated-speech-icons_32
+  - first:
+      213: -5013355727478566751
+    second: rpg-type-retro-animated-speech-icons_33
+  - first:
+      213: -893246184495699730
+    second: rpg-type-retro-animated-speech-icons_34
+  - first:
+      213: -4076337490895245126
+    second: rpg-type-retro-animated-speech-icons_35
+  - first:
+      213: -1040882223750321506
+    second: rpg-type-retro-animated-speech-icons_36
+  - first:
+      213: -3865575205879040011
+    second: rpg-type-retro-animated-speech-icons_37
+  - first:
+      213: 8184036030838072598
+    second: rpg-type-retro-animated-speech-icons_38
+  - first:
+      213: -2029030523928168059
+    second: rpg-type-retro-animated-speech-icons_39
+  - first:
+      213: 2039658849560309804
+    second: rpg-type-retro-animated-speech-icons_40
+  - first:
+      213: 7542936229942864397
+    second: rpg-type-retro-animated-speech-icons_41
+  - first:
+      213: -6938003106161355097
+    second: rpg-type-retro-animated-speech-icons_42
+  - first:
+      213: 5976332778861761862
+    second: rpg-type-retro-animated-speech-icons_43
+  - first:
+      213: -4896461024244110514
+    second: rpg-type-retro-animated-speech-icons_44
+  - first:
+      213: -4146323789930332256
+    second: rpg-type-retro-animated-speech-icons_45
+  - first:
+      213: -5079325297762172587
+    second: rpg-type-retro-animated-speech-icons_46
+  - first:
+      213: -4488139074649625267
+    second: rpg-type-retro-animated-speech-icons_47
+  - first:
+      213: 4260111020105170696
+    second: rpg-type-retro-animated-speech-icons_48
+  - first:
+      213: -5115217661522799741
+    second: rpg-type-retro-animated-speech-icons_49
+  - first:
+      213: 5224127971261041421
+    second: rpg-type-retro-animated-speech-icons_50
+  - first:
+      213: 8311359259349492903
+    second: rpg-type-retro-animated-speech-icons_51
+  - first:
+      213: -1742866966932197997
+    second: rpg-type-retro-animated-speech-icons_52
+  - first:
+      213: 8386726110513584562
+    second: rpg-type-retro-animated-speech-icons_53
+  - first:
+      213: -964908345563380819
+    second: rpg-type-retro-animated-speech-icons_54
+  - first:
+      213: 8111064487742454983
+    second: rpg-type-retro-animated-speech-icons_55
+  - first:
+      213: -5280097460717729157
+    second: rpg-type-retro-animated-speech-icons_56
+  - first:
+      213: -6132408548054852383
+    second: rpg-type-retro-animated-speech-icons_57
+  - first:
+      213: 1949293520089249961
+    second: rpg-type-retro-animated-speech-icons_58
+  - first:
+      213: -7191537825402694371
+    second: rpg-type-retro-animated-speech-icons_59
+  - first:
+      213: 7893215287173740387
+    second: rpg-type-retro-animated-speech-icons_60
+  - first:
+      213: 7096392749099361245
+    second: rpg-type-retro-animated-speech-icons_61
+  - first:
+      213: 5889797933618014822
+    second: rpg-type-retro-animated-speech-icons_62
+  - first:
+      213: 337273722974841842
+    second: rpg-type-retro-animated-speech-icons_63
+  - first:
+      213: -6505067211284289942
+    second: rpg-type-retro-animated-speech-icons_64
+  - first:
+      213: 8320820561785632087
+    second: rpg-type-retro-animated-speech-icons_65
+  - first:
+      213: 1907461179702142013
+    second: rpg-type-retro-animated-speech-icons_66
+  - first:
+      213: -6383882662591099908
+    second: rpg-type-retro-animated-speech-icons_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fb4fb1549a8d4f0800000000000000
+      internalID: -803706419198771368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f9e1ef8eab88110800000000000000
+      internalID: 1263465205336022794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f74fa6101e7ba70800000000000000
+      internalID: 8842783789570883475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a17aab92d86c280800000000000000
+      internalID: -9023369593025521023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 175
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50980b9736e43e4a0800000000000000
+      internalID: -6565317642625709819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 159
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbbfb9f4ef246c90800000000000000
+      internalID: -7177559245632586757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94eb270487523a1d0800000000000000
+      internalID: -3340785300171211191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12244404e076f2150800000000000000
+      internalID: 5850007751882981921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_8
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 165
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc6106b30b9949a0800000000000000
+      internalID: -6248292567759098704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 165
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa6810a36aeb9450800000000000000
+      internalID: 6096724234184715007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7417b242f93c2fe90800000000000000
+      internalID: -6993312183078915769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60df30648b207ce80800000000000000
+      internalID: -8158549209486459642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 143
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ebe9a5981fbfeb0800000000000000
+      internalID: -4684885415115702697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd04db9eaf46086e0800000000000000
+      internalID: -1837357619141066533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_14
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 148
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da64dc021f8a00a0800000000000000
+      internalID: -6914556970186544428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 149
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d305d963bee685c0800000000000000
+      internalID: -4213417947016395819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7930b54530dee10800000000000000
+      internalID: 2228441051457361824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15386f38208dca580800000000000000
+      internalID: -8814432865355398319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a145386b0bf6af00800000000000000
+      internalID: 1127864783114420641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb67223b3446e49c0800000000000000
+      internalID: -3941102381971638593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 127
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1991045c8ff0090d0800000000000000
+      internalID: -3418214556038588015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 111
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3796664b7a8d560800000000000000
+      internalID: 7338799986054362111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9289cdfdca6b3c40800000000000000
+      internalID: 5493101603467133596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb1da8ceebd7f120800000000000000
+      internalID: 2447666741114641338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_24
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 116
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f426d3dd5a637510800000000000000
+      internalID: 1545696048336741617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 117
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f3c6f53e221ea50800000000000000
+      internalID: 6548553693127262069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bd6e1915d620930800000000000000
+      internalID: 4107966007222917962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd98e112290a3390800000000000000
+      internalID: -7837942159550931535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 95
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92057513ba54f47b0800000000000000
+      internalID: -5237891240039067607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122bd89b2219bc6b0800000000000000
+      internalID: -5274962960206417375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_30
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 101
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca7e5072f46e2180800000000000000
+      internalID: -9138255601458054464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_31
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 100
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe17cc384a2720a20800000000000000
+      internalID: 3027107950457811439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_32
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 102
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265b498fb28235830800000000000000
+      internalID: 4058631858510148962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_33
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 101
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a058fa178bfc6ab0800000000000000
+      internalID: -5013355727478566751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8292ce35d8a93f0800000000000000
+      internalID: -893246184495699730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0f49e36a0fd67c0800000000000000
+      internalID: -4076337490895245126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ae750e12b0e81f0800000000000000
+      internalID: -1040882223750321506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7b509b4d7ba5ac0800000000000000
+      internalID: -3865575205879040011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_38
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615e91fb869839170800000000000000
+      internalID: 8184036030838072598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58936de1d7f67d3e0800000000000000
+      internalID: -2029030523928168059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 79
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c203607cae25e4c10800000000000000
+      internalID: 2039658849560309804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 63
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a2b257984eda860800000000000000
+      internalID: 7542936229942864397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 47
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a612be1fe247bf90800000000000000
+      internalID: -6938003106161355097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64514979ff230f250800000000000000
+      internalID: 5976332778861761862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b626914a64c0cb0800000000000000
+      internalID: -4896461024244110514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af73713b7c4576c0800000000000000
+      internalID: -4146323789930332256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_46
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 53
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5510b389d8c9289b0800000000000000
+      internalID: -5079325297762172587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d65f07a4de6b1c0800000000000000
+      internalID: -4488139074649625267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f7819d664fe1b30800000000000000
+      internalID: 4260111020105170696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 31
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383112073a81309b0800000000000000
+      internalID: -5115217661522799741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b423416b4df7840800000000000000
+      internalID: 5224127971261041421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_51
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 35
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a42e2ef531e75370800000000000000
+      internalID: 8311359259349492903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_52
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 37
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d6e394ab710d7e0800000000000000
+      internalID: -1742866966932197997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9d7a576f2a36470800000000000000
+      internalID: 8386726110513584562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_54
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da382e5d8f4fb92f0800000000000000
+      internalID: -964908345563380819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccbc266d2a409070800000000000000
+      internalID: 8111064487742454983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a4a7aa55359b6b0800000000000000
+      internalID: -5280097460717729157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_57
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 6
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec1f9b9aee45eaa0800000000000000
+      internalID: -6132408548054852383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_58
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 6
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8f3e3f0284d0b10800000000000000
+      internalID: 1949293520089249961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_59
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 21
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1556104376823c90800000000000000
+      internalID: -7191537825402694371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3677cafcb755a8d60800000000000000
+      internalID: 7893215287173740387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3a9b46b937b7260800000000000000
+      internalID: 7096392749099361245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66aa120e304ccb150800000000000000
+      internalID: 5889797933618014822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb2df10aac3ea400800000000000000
+      internalID: 337273722974841842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_64
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66eb5f26db59b5a0800000000000000
+      internalID: -6505067211284289942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755bff0273e797370800000000000000
+      internalID: 8320820561785632087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_66
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d346ef636d9a87a10800000000000000
+      internalID: 1907461179702142013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-type-retro-animated-speech-icons_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb8b78aa84e767a0800000000000000
+      internalID: -6383882662591099908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rpg-type-retro-animated-speech-icons_0: -803706419198771368
+      rpg-type-retro-animated-speech-icons_1: 1263465205336022794
+      rpg-type-retro-animated-speech-icons_10: -6993312183078915769
+      rpg-type-retro-animated-speech-icons_11: -8158549209486459642
+      rpg-type-retro-animated-speech-icons_12: -4684885415115702697
+      rpg-type-retro-animated-speech-icons_13: -1837357619141066533
+      rpg-type-retro-animated-speech-icons_14: -6914556970186544428
+      rpg-type-retro-animated-speech-icons_15: -4213417947016395819
+      rpg-type-retro-animated-speech-icons_16: 2228441051457361824
+      rpg-type-retro-animated-speech-icons_17: -8814432865355398319
+      rpg-type-retro-animated-speech-icons_18: 1127864783114420641
+      rpg-type-retro-animated-speech-icons_19: -3941102381971638593
+      rpg-type-retro-animated-speech-icons_2: 8842783789570883475
+      rpg-type-retro-animated-speech-icons_20: -3418214556038588015
+      rpg-type-retro-animated-speech-icons_21: 7338799986054362111
+      rpg-type-retro-animated-speech-icons_22: 5493101603467133596
+      rpg-type-retro-animated-speech-icons_23: 2447666741114641338
+      rpg-type-retro-animated-speech-icons_24: 1545696048336741617
+      rpg-type-retro-animated-speech-icons_25: 6548553693127262069
+      rpg-type-retro-animated-speech-icons_26: 4107966007222917962
+      rpg-type-retro-animated-speech-icons_27: -7837942159550931535
+      rpg-type-retro-animated-speech-icons_28: -5237891240039067607
+      rpg-type-retro-animated-speech-icons_29: -5274962960206417375
+      rpg-type-retro-animated-speech-icons_3: -9023369593025521023
+      rpg-type-retro-animated-speech-icons_30: -9138255601458054464
+      rpg-type-retro-animated-speech-icons_31: 3027107950457811439
+      rpg-type-retro-animated-speech-icons_32: 4058631858510148962
+      rpg-type-retro-animated-speech-icons_33: -5013355727478566751
+      rpg-type-retro-animated-speech-icons_34: -893246184495699730
+      rpg-type-retro-animated-speech-icons_35: -4076337490895245126
+      rpg-type-retro-animated-speech-icons_36: -1040882223750321506
+      rpg-type-retro-animated-speech-icons_37: -3865575205879040011
+      rpg-type-retro-animated-speech-icons_38: 8184036030838072598
+      rpg-type-retro-animated-speech-icons_39: -2029030523928168059
+      rpg-type-retro-animated-speech-icons_4: -6565317642625709819
+      rpg-type-retro-animated-speech-icons_40: 2039658849560309804
+      rpg-type-retro-animated-speech-icons_41: 7542936229942864397
+      rpg-type-retro-animated-speech-icons_42: -6938003106161355097
+      rpg-type-retro-animated-speech-icons_43: 5976332778861761862
+      rpg-type-retro-animated-speech-icons_44: -4896461024244110514
+      rpg-type-retro-animated-speech-icons_45: -4146323789930332256
+      rpg-type-retro-animated-speech-icons_46: -5079325297762172587
+      rpg-type-retro-animated-speech-icons_47: -4488139074649625267
+      rpg-type-retro-animated-speech-icons_48: 4260111020105170696
+      rpg-type-retro-animated-speech-icons_49: -5115217661522799741
+      rpg-type-retro-animated-speech-icons_5: -7177559245632586757
+      rpg-type-retro-animated-speech-icons_50: 5224127971261041421
+      rpg-type-retro-animated-speech-icons_51: 8311359259349492903
+      rpg-type-retro-animated-speech-icons_52: -1742866966932197997
+      rpg-type-retro-animated-speech-icons_53: 8386726110513584562
+      rpg-type-retro-animated-speech-icons_54: -964908345563380819
+      rpg-type-retro-animated-speech-icons_55: 8111064487742454983
+      rpg-type-retro-animated-speech-icons_56: -5280097460717729157
+      rpg-type-retro-animated-speech-icons_57: -6132408548054852383
+      rpg-type-retro-animated-speech-icons_58: 1949293520089249961
+      rpg-type-retro-animated-speech-icons_59: -7191537825402694371
+      rpg-type-retro-animated-speech-icons_6: -3340785300171211191
+      rpg-type-retro-animated-speech-icons_60: 7893215287173740387
+      rpg-type-retro-animated-speech-icons_61: 7096392749099361245
+      rpg-type-retro-animated-speech-icons_62: 5889797933618014822
+      rpg-type-retro-animated-speech-icons_63: 337273722974841842
+      rpg-type-retro-animated-speech-icons_64: -6505067211284289942
+      rpg-type-retro-animated-speech-icons_65: 8320820561785632087
+      rpg-type-retro-animated-speech-icons_66: 1907461179702142013
+      rpg-type-retro-animated-speech-icons_67: -6383882662591099908
+      rpg-type-retro-animated-speech-icons_7: 5850007751882981921
+      rpg-type-retro-animated-speech-icons_8: -6248292567759098704
+      rpg-type-retro-animated-speech-icons_9: 6096724234184715007
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
