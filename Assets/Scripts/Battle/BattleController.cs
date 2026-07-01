@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using Fungus;
 using TMPro;
@@ -28,10 +29,18 @@ public class BattleController : MonoBehaviour
     public AudioClip enemyAttackSound;
     public AudioClip playerDefenseSound;
     public AudioClip playerSpecialSound;
-    private static WaitForSeconds _waitForSeconds_5 = new(.5f);
-    private static WaitForSeconds _waitForSeconds1 = new(1f);
+    private static readonly WaitForSeconds _waitForSeconds_5 = new(.5f);
+    private static readonly WaitForSeconds _waitForSeconds1 = new(1f);
     private bool isPlayerDefending;
     private bool isSpecialAttackUsed = false;
+    private BattleHud battleHud;
+    private BattleAudio battleAudio;
+
+    void Awake()
+    {
+        battleHud = new BattleHud(battleTextHUD, statHUD, playerHUD, specialAttackButton, battleText, playerHealth, enemyHealth);
+        battleAudio = new BattleAudio(audioSource, playerAttackSound, enemyAttackSound, playerDefenseSound, playerSpecialSound);
+    }
 
     void Start()
     {
@@ -41,13 +50,13 @@ public class BattleController : MonoBehaviour
 
     private IEnumerator SetupBattle()
     {
-        specialAttackButton.SetActive(false);
+        battleHud.SetSpecialAttackButtonActive(false);
         playerUnit.Setup();
         enemyUnit.Setup();
-        UpdateHealthUI();
+        battleHud.UpdateHealth(playerUnit, enemyUnit);
 
-        SwitchHUD(true, false);
-        battleText.text = "Kill the " + enemyStats.charName + "!";
+        battleHud.SwitchHud(true, false);
+        battleHud.SetText("Kill the " + enemyStats.charName + "!");
 
         yield return _waitForSeconds_5;
         StartCoroutine(PlayerTurn());
@@ -55,24 +64,24 @@ public class BattleController : MonoBehaviour
 
     private IEnumerator PlayerTurn()
     {
-        SwitchHUD(true, false);
+        battleHud.SwitchHud(true, false);
         battleState = BattleState.PlayerTurn;
-        battleText.text = "Choose an Action!";
+        battleHud.SetText("Choose an Action!");
         yield return _waitForSeconds_5;
 
-        if (playerUnit.currentHealth <= 5 && isSpecialAttackUsed == false)
+        if (playerUnit.currentHealth <= 5 && !isSpecialAttackUsed)
         {
-            specialAttackButton.SetActive(true);
+            battleHud.SetSpecialAttackButtonActive(true);
         }
 
-        SwitchHUD(false, true);
+        battleHud.SwitchHud(false, true);
     }
 
     private IEnumerator EnemyTurn()
     {
-        SwitchHUD(true, false);
+        battleHud.SwitchHud(true, false);
         battleState = BattleState.EnemyTurn;
-        battleText.text = "Watch out of the attack!";
+        battleHud.SetText("Watch out of the attack!");
 
         yield return _waitForSeconds_5;
 
@@ -83,9 +92,9 @@ public class BattleController : MonoBehaviour
         yield return enemyUnit.MoveTo(attackPos, moveSpeed);
 
         enemyUnit.PlayAnimation("ShamanAttack");
-        audioSource.PlayOneShot(enemyAttackSound);
+        battleAudio.PlayEnemyAttack();
 
-        int damage = Random.Range(enemyUnit.stats.minAttackDamage, enemyUnit.stats.maxAttackDamage + 1);
+        int damage = UnityEngine.Random.Range(enemyUnit.stats.minAttackDamage, enemyUnit.stats.maxAttackDamage + 1);
         if (isPlayerDefending)
         {
             damage = Mathf.Max(0, Mathf.RoundToInt(damage * 0.5f) - 1);
@@ -93,7 +102,7 @@ public class BattleController : MonoBehaviour
         }
 
         bool isDead = playerUnit.TakeDamage(damage);
-        UpdateHealthUI();
+        battleHud.UpdateHealth(playerUnit, enemyUnit);
         yield return _waitForSeconds1;
 
         yield return enemyUnit.MoveTo(startPos, moveSpeed);
@@ -117,40 +126,7 @@ public class BattleController : MonoBehaviour
             return;
         }
 
-        StartCoroutine(PlayerAttack());
-    }
-
-    private IEnumerator PlayerAttack()
-    {
-        SwitchHUD(true, false);
-        battleText.text = "You attack!";
-        Vector3 startPos = playerUnit.transform.position;
-
-        Vector3 dir = (startPos - enemyUnit.transform.position).normalized;
-        Vector3 attackPos = enemyUnit.transform.position + dir * stoppingDistance;
-
-        yield return playerUnit.MoveTo(attackPos, moveSpeed);
-
-        playerUnit.PlayAnimation("PlayerAttack");
-        audioSource.PlayOneShot(playerAttackSound);
-
-        bool isDead = enemyUnit.TakeDamage(Random.Range(playerStats.minAttackDamage, playerStats.maxAttackDamage + 1));
-        UpdateHealthUI();
-        yield return _waitForSeconds_5;
-
-        yield return playerUnit.MoveTo(startPos, moveSpeed);
-
-        if (isDead)
-        {
-            battleState = BattleState.Won;
-            SwitchHUD(false, false);
-            EndBattle();
-        }
-        else
-        {
-            battleState = BattleState.EnemyTurn;
-            StartCoroutine(EnemyTurn());
-        }
+        StartCoroutine(PlayerAttack("You attack!", () => UnityEngine.Random.Range(playerStats.minAttackDamage, playerStats.maxAttackDamage + 1), battleAudio.PlayPlayerAttack));
     }
 
     public void OnDefenseButton()
@@ -163,38 +139,6 @@ public class BattleController : MonoBehaviour
         StartCoroutine(PlayerDefense());
     }
 
-    public void EndBattle()
-    {
-        SwitchHUD(false, false);
-        playerHUD.SetActive(false);
-
-        if (battleState == BattleState.Won)
-        {
-            flowchart.ExecuteBlock("WonBattle");
-        }
-        else if (battleState == BattleState.Lost)
-        {
-            flowchart.ExecuteBlock("LoseBattle");
-        }
-    }
-
-    private IEnumerator PlayerDefense()
-    {
-        isPlayerDefending = true;
-        SwitchHUD(true, false);
-        battleText.text = "Defend the attack!";
-        playerUnit.currentHealth += 1;
-
-        playerUnit.PlayAnimation("PlayerDefense");
-        audioSource.PlayOneShot(playerDefenseSound);
-        UpdateHealthUI();
-
-        yield return _waitForSeconds1;
-
-        battleState = BattleState.EnemyTurn;
-        StartCoroutine(EnemyTurn());
-    }
-
     public void OnSpecialAttackButton()
     {
         if (battleState != BattleState.PlayerTurn || isSpecialAttackUsed)
@@ -202,14 +146,14 @@ public class BattleController : MonoBehaviour
             return;
         }
 
-        StartCoroutine(PlayerSpecialAttack());
+        isSpecialAttackUsed = true;
+        StartCoroutine(PlayerAttack("SPECIAL ATTACKU!", () => 11, battleAudio.PlayPlayerSpecial));
     }
 
-    private IEnumerator PlayerSpecialAttack()
+    private IEnumerator PlayerAttack(string text, Func<int> damage, Action playSound)
     {
-        SwitchHUD(true, false);
-        isSpecialAttackUsed = true;
-        battleText.text = "SPECIAL ATTACKU!";
+        battleHud.SwitchHud(true, false);
+        battleHud.SetText(text);
         Vector3 startPos = playerUnit.transform.position;
 
         Vector3 dir = (startPos - enemyUnit.transform.position).normalized;
@@ -218,10 +162,19 @@ public class BattleController : MonoBehaviour
         yield return playerUnit.MoveTo(attackPos, moveSpeed);
 
         playerUnit.PlayAnimation("PlayerAttack");
-        audioSource.PlayOneShot(playerSpecialSound);
+        playSound();
 
-        bool isDead = enemyUnit.TakeDamage(10);
-        UpdateHealthUI();
+        bool isDead;
+        if (isSpecialAttackUsed)
+        {
+            isDead = enemyUnit.TakeDamagePrecise(damage());
+        }
+        else
+        {
+            isDead = enemyUnit.TakeDamage(damage());
+        }
+
+        battleHud.UpdateHealth(playerUnit, enemyUnit);
         yield return _waitForSeconds_5;
 
         yield return playerUnit.MoveTo(startPos, moveSpeed);
@@ -229,7 +182,7 @@ public class BattleController : MonoBehaviour
         if (isDead)
         {
             battleState = BattleState.Won;
-            SwitchHUD(false, false);
+            battleHud.SwitchHud(false, false);
             EndBattle();
         }
         else
@@ -239,16 +192,36 @@ public class BattleController : MonoBehaviour
         }
     }
 
-    private void SwitchHUD(bool isBattleText = false, bool isStatHUD = false)
+    private IEnumerator PlayerDefense()
     {
-        battleTextHUD.SetActive(isBattleText);
-        statHUD.SetActive(isStatHUD);
+        isPlayerDefending = true;
+        battleHud.SwitchHud(true, false);
+        battleHud.SetText("Defend the attack!");
+        playerUnit.currentHealth += 1;
+
+        playerUnit.PlayAnimation("PlayerDefense");
+        battleAudio.PlayPlayerDefense();
+        battleHud.UpdateHealth(playerUnit, enemyUnit);
+
+        yield return _waitForSeconds1;
+
+        battleState = BattleState.EnemyTurn;
+        StartCoroutine(EnemyTurn());
     }
 
-    private void UpdateHealthUI()
+    public void EndBattle()
     {
-        playerHealth.text = $"{playerUnit.currentHealth}/{playerUnit.stats.maxHealth}";
-        enemyHealth.text = $"{enemyUnit.currentHealth}/{enemyUnit.stats.maxHealth}";
+        battleHud.SwitchHud(false, false);
+        battleHud.SetPlayerHudActive(false);
+
+        if (battleState == BattleState.Won)
+        {
+            flowchart.ExecuteBlock("WonBattle");
+        }
+        else if (battleState == BattleState.Lost)
+        {
+            flowchart.ExecuteBlock("LoseBattle");
+        }
     }
 
     public void LoadWinScene() => SceneManager.LoadScene("WinScene");

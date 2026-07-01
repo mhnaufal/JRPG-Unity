@@ -26,6 +26,12 @@ public class BattleUnit : MonoBehaviour
         return currentHealth <= 0;
     }
 
+    public bool TakeDamagePrecise(int amount)
+    {
+        currentHealth -= amount;
+        return currentHealth <= 0;
+    }
+
     public void PlayAnimation(string stateName)
     {
         if (animator != null)
